@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+    background-color: gray;
+    grid-area: h1;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+h1{
+    font-size: 30px;    
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    background: rgb(102, 102, 102);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    grid-area: nav;
+
+}
+
+.prule{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 25px;
+}
+
+.h2rule{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 25px;
+    margin-bottom: -15px
+}
+
+#imageofme{
+    margin: 25px;
+    margin-top: -15px;
+}
+
+#enbildpamig{
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+#underrubrik_elden{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.image_elden{
+    height: 400px;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+#valoh2{
+    grid-area: valoh2;
+    color: white;
+    align-content: center;
+}
+
+.abcabcabcabcabcabc{
+    color:white;
+    font-family: "Google Sans Code", monospace;
+}
+
+#valobody{
+    background: url(images/valorant-logo-x0jet8s98hbbfi62.jpg);
+    background-size: 100%;
+    ;
+}
+
+#PFOAbody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr 0.35fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    grid-template-areas:
+    "h1   h1   h1"
+    "nav   nav   nav"
+    ".   .   ."
+    "filler   MCLG   MCL"
+    "PFOA   NumberZero   ppt40"
+    "PFOS   NumberZero2   ppt402"
+    "PFHxS   ppt10   ppt102"
+    "PFNA   ppt103   ppt104";
+}
+
+#PFOAbody section{
+    background-color: white;
+    border: 5px solid black;
+    margin: -2.5px;
+    align-content: center;
+    text-align: center;
+    font-family:'Gill Sans MT';
+    font-size: 30px;
+}
+
+#MCLG{
+    grid-area: MCLG;
+}
+#MCL{
+    grid-area: MCL;
+    border-top-right-radius: 25px;
+}
+#PFOA{
+    grid-area: PFOA;
+}
+#PFOS{
+    grid-area: PFOS;
+}
+#PFHxS{
+    grid-area: PFHxS
+}
+#PFNA{
+    grid-area: PFNA;
+    border-bottom-left-radius: 25px;
+}
+#zero{
+    grid-area: NumberZero
+}
+#zero2{
+    grid-area: NumberZero2
+}
+#ppt40{
+    grid-area: ppt40;
+}
+#ppt402{
+    grid-area: ppt402;
+}
+#ppt10{
+    grid-area: ppt10;
+}
+#ppt102{
+    grid-area: ppt102;
+}
+#ppt103{
+    grid-area: ppt103;
+}
+#ppt104{
+    grid-area: ppt104;
+    border-bottom-right-radius: 25px;
+}
+#filler{
+    grid-area: filler;
+    border-top-left-radius: 25px;
+}

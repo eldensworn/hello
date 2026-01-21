@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    background-color: gray;
+    color: black;
+}
+
+#mainheader{
+    font-style: Arial;
+    text-align: center;
+}
+
+.sideheaderrule{
+    font-style: arial;
+}
+
+body section p{
+    margin-right: ;
+    text-align: center;
+}

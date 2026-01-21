@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* Fråga 9 */
+/* #onsdag{
+    font-weight: bold;
+    font-size: 300px;
+} */
+
+/* Fråga 10 */
+/* .kursiv{ */
+    /* font-style: italic; */
+/* } */
+
+/* Fråga 12 */
+/* #typsnitt{
+    font-family: Ardal, Georgia, sans-serif;
+} */
+
+/* fråga 13 */
+/* h2{
+    color: red;
+} */
+
+/* Fråga 14 */
+/* h2{
+    font-size: 40px;
+} */
+
+/* Fråga 15 */
+/* body{
+    background: #993;
+} */
+
+/* Fr¨ga 16 */
+/* 
+body{
+    background: url(images/tree.jpg);
+} */
+
+/* Fråga 18 */
+/* nav a{
+    text-decoration: none;
+} */
+
+/* Fråga 25 */
+/* #mainNav{
+    border: 4px solid red;
+    margin: 20px;
+    padding-bottom: 10px;
+} */
+/* 
+img{
+    width: 100px
+} */
+
+article{
+    border: 4px solid red;
+    display: flex;
+}
+
+section{
+    border: 3px solid blue;
+    flex: 1;
+}
+
+#last{
+    flex: 2
+}

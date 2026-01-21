@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(199, 199, 199);
+}
+
+main{
+    margin: 0 20px;
+    background: white;
+}
+
+main > p{
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    padding: 10px
+}
+
+h2{
+    padding: 10px
+}
+
+h3{
+    padding: 10px
+}
+
+p{
+    padding: 10px
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width:600px){
+    div{
+        display: flex;
+        width: 100%
+    }
+
+div section{
+        flex: 1;
+    }
+}

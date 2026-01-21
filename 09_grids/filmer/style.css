@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.25fr 1fr;
+    grid-template-areas:
+        "heat   heat    usual   usual"
+        "ins    rififi  rififi  bankjob"
+    ;
+}
+
+#HEAT{
+    grid-area: heat;
+    background: url(images/heat.jpg);
+    background-size: cover;
+}
+
+#Usual{
+    grid-area: usual;
+    background: url(images/usualsuspects.jpg);
+    background-size: cover;
+}
+
+#Inside {
+    grid-area: ins;
+    background: url(images/insideman.jpg);
+    background-size: cover;
+}
+
+#Rififi{
+    grid-area: rififi;
+    background: url(images/rififi.jpg);
+    background-size: cover;
+}
+
+#Bankjob{
+    grid-area: bankjob;
+    background: url(images/bankjob.jpg);
+    background-size: cover;
+}

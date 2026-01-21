@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+article{
+    flex: 1
+}
+section{
+display: flex;
+}

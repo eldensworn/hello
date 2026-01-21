@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+header, main, nav, footer, aside{
+    border: 4px solid yellow;
+    border-radius: 4px;
+    background-color: yellow;
+    margin: 4px
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "a    b    b"
+        "a    .    c"
+        "d    d    d"
+        ".    e    ."
+}
+
+header{
+    grid-area: a;
+}
+
+main{
+    grid-area: b;
+}
+
+nav{
+    grid-area: c;
+}
+
+aside{
+    grid-area: d;
+}
+
+footer{
+    grid-area: e;
+}
