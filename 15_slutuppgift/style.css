@@ -47,37 +47,7 @@
     cursor: pointer;
   }
   
-  /* ===== Mobil ===== */
-  @media (max-width: 768px) {
-  
-    .menu-toggle {
-      display: block;
-    }
-  
-    .menu {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      background: #333;
-      flex-direction: column;
-      overflow: hidden;
-  
-      max-height: 0;
-      transition: max-height 0.3s ease;
-    }
-  
-    .menu li {
-      text-align: center;
-      padding: 1rem 0;
-    }
-  
-    .menu.active {
-      max-height: 300px; /* justera efter behov */
-    }
-  }
-
-/* Lägga till padding och lite extra på de mest viktiga delarna av bodyn. */
+  /* Lägga till padding och lite extra på de mest viktiga delarna av bodyn. */
 
   .allbutindex{
     padding: 30px;
@@ -112,4 +82,46 @@
     border-radius: 35px;
     margin-top: 200px;
   
+  }
+  
+  /* ===== Mobil ===== */
+  @media (max-width: 768px) {
+  
+    .menu-toggle {
+      display: block;
+    }
+    
+    .img_outside_of_index{
+      width: 100%;
+    }
+    
+    #positioning{
+      border-radius: 4px;
+    }
+
+    .menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #333;
+      flex-direction: column;
+      overflow: hidden;
+  
+      max-height: 0;
+      transition: max-height 0.3s ease;
+    }
+    
+    .allbutindex{
+      grid-template-columns: 1fr;
+    }
+
+    .menu li {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .menu.active {
+      max-height: 300px; /* justera efter behov */
+    }
   }
